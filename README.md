@@ -101,6 +101,7 @@ const library = [
        title:  'The Erstwhile', 
        readingStatus: false
    }];
+
 E.g. Output: 
 
 Already read Funeral Rites by Jean Genet
