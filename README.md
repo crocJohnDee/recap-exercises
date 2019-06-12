@@ -102,8 +102,11 @@ const library = [
        readingStatus: false
    }];
 E.g. Output: 
+
 Already read Funeral Rites by Jean Genet
+
 Already read Crash by JG Ballard
+
 You still need to read The Erstwhile by B.Catling
 
 
