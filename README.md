@@ -6,24 +6,22 @@
 
 2. Write a program to check whether a string is empty or not.
 
-3. Write a program to split a string and convert it into an array of words. E.g. text: "I like to walk in the park.
+3. Write a program to convert a string in abbreviated form. E.g. John Smith -> John S. 
 
-4. Write a program to convert a string in abbreviated form. E.g. John Smith -> John S. 
-
-5. Write a program to hide email addresses to protect from unauthorized user.
+4. Write a program to hide email addresses to protect from unauthorized user.
 E.g. "john_smith@example.com" -> "john...@example.com"
 
-6. Write a program to change a string to the following format:
+5. Write a program to change a string to the following format:
 E.g. John Smith from Berlin -> john-smith-from-berlin. 
 
-7. Write a program to convert a string into camel case.
+6. Write a program to convert a string into camel case.
 E.g. "john smith" -> "johnSmith"
 
-8. Write a program that returns ordinal numbers (1st, 2nd, 3rd, 4th, 5th etc.)
+7. Write a program that returns ordinal numbers (1st, 2nd, 3rd, 4th, 5th etc.)
 
-9. Declare a variable and sort the characters into alphabetical order. 
+8. Declare a variable and sort the characters into alphabetical order. 
 
-10. Write a program that takes a number (1-60) and returns a corresponding string of hyphens.
+9. Write a program that takes a number (1-60) and returns a corresponding string of hyphens.
 Examples:
 (1) ➞ "-"
 (5) ➞ "-----"
@@ -75,12 +73,12 @@ spelling("eagerly") ➞ ["e", "ea", "eag", "eage", "eager"]
 1. Write a program to list the properties of an object. 
 E.g.
 const student = { 
-firstName: "John", 
-lastName: "Smith", 
+firstName: "Vikram", 
+lastName: "Patel", 
 class: 12 };
 Expected Output: firstName, lastName, class
 
-2. Create a person object. Include the person's first and last name, age, job, city etc. Then print text by retrieving data from the object e.g. "John Smith is a 41 year old engineer living in France". 
+2. Create a person object. Include the person's first and last name, age, job, city etc. Then print text by retrieving data from the object e.g. "Vikram Patel is a 41 year old engineer living in Mumbai". 
 
 3. Write a JavaScript program to delete the "class" property (or last property) from the previous object.
 
@@ -89,23 +87,23 @@ Expected Output: firstName, lastName, class
 5. Write a program to display the reading status (i.e. display book name, author name and reading status) of the following books.
 const library = [ 
    {
-       author: 'J.K. Rowling',
-       title: 'Harry Potter and the Chamber of Secrets',
+       author: 'Jean Genet',
+       title: 'Funeral Rites',
        readingStatus: true
    },
    {
-       author: 'Homer',
-       title: 'The Odyssey',
+       author: 'JG Ballard',
+       title: 'Crash',
        readingStatus: true
    },
    {
-       author: 'Harper Lee',
-       title:  'To Kill a Mockingbird', 
+       author: 'B.Catling',
+       title:  'The Erstwhile', 
        readingStatus: false
    }];
 E.g. Output: 
-Already read Harry Potter and the Chamber of Secrets by J.K. Rowling
-Already read The Odyssey by Homer
-You still need to read To Kill a Mockingbird by Harper Lee
+Already read Funeral Rites by Jean Genet
+Already read Crash by JG Ballard
+You still need to read The Erstwhile by B.Catling
 
 
