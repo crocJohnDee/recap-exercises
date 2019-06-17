@@ -59,8 +59,8 @@ const ordinal = num => {
 console.log(ordinal(11));
 
 // 8. Declare a variable and sort the characters into alphabetical order. 
-let lazyStr = ["fwfw", "wefew", "werwe", "ads", "fgzju", "mzrw", "ztutz", "pkz", "gjzu", "wqdsd", "adwqd"]
-let sortedArr = arr => arr.sort();
+let lazyStr = "fefergregregrjtzhtr"
+let sortedArr = arr => [...arr].sort().join("");
 
 console.log(sortedArr(lazyStr));
 
@@ -72,9 +72,9 @@ console.log(sortedArr(lazyStr));
 
 
 const monsterPhens = num => num > 0 && num <= 60 ?
-    [...Array(num).keys()].map(x => "-").join("") : "Please chose a number between 1 and 60";
+    [...Array(num).keys()].map(x => "-").join("") : "Please choose a number between 1 and 60";
 
-
+// || "-".repeat(num)
 console.log(monsterPhens(40));
 
 // ### Arrays
@@ -229,3 +229,6 @@ const haveRead = obj => {
 
 }
 haveRead(library);
+
+
+
